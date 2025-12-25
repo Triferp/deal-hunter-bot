@@ -16,14 +16,14 @@ A full-stack Python web application that tracks product prices on Amazon and not
 
 ## Installation
 1. Clone the repo
-   git clone [https://github.com/Triferp/deal-hunter-bot.git](https://github.com/Triferp/deal-hunter-bot.git)
+git clone [https://github.com/Triferp/deal-hunter-bot.git](https://github.com/Triferp/deal-hunter-bot.git)
 
 2. Install dependencies
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
 3. Set up environment variables Create a .env file and add your Telegram credentials:
-   TELEGRAM_TOKEN = your_token_here 
-   TELEGRAM_CHAT_ID = your_chat_id
+TELEGRAM_TOKEN = your_token_here 
+TELEGRAM_CHAT_ID = your_chat_id
 
 4. Run the App
-   streamlit run main.py
+streamlit run main.py
